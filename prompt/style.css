@@ -1,0 +1,38 @@
+.container {
+
+    width: 100%;
+    display: flex;
+
+    & .box {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+
+        & img {
+            width: auto;
+            height: 150px;
+        }
+
+        & div {
+            margin: 10px;
+            width: 250px;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+            border: 2px dotted grey;
+            height: auto;
+            background-color: antiquewhite;
+            display: flex;
+        }
+
+        & h1,
+        h3,
+        p :hover {
+            cursor: url(http://icons.iconarchive.com/icons/designcontest/vintage/32/Patent-Pen-icon.png) 0 30, progress;
+        }
+
+
+
+    }
+}
