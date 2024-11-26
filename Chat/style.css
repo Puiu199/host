@@ -1,0 +1,100 @@
+.wrappChatI,
+.wrappChatF {
+  position: relative;
+  width: 800px;
+  height: 600px;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: antiquewhite;
+}
+.chatI,
+.chatF {
+  position: absolute;
+  overflow-x: hidden;
+  overflow-y: scroll;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  width: 500px;
+  height: 70%;
+  padding: 5px;
+  border: 1px solid black;
+
+  z-index: 100;
+  background-color: beige;
+}
+.form {
+  display: flex;
+  justify-content: space-evenly;
+  position: absolute;
+  display: flex;
+  height: 50px;
+  border-top: 1px solid black;
+  width: 95%;
+  box-sizing: border-box;
+  padding: 5px 5px;
+  bottom: 10px;
+}
+.form input {
+  border: 1px solid grey;
+  border-radius: 15px;
+  width: 80%;
+  border: none;
+}
+.form button {
+  width: 35px;
+  border: none;
+  height: 35px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(https://e1.pngegg.com/pngimages/795/970/png-clipart-macos-app-icons-telegram.png);
+}
+
+.wrappChatI .IAM {
+  border: 1px solid rgb(165, 163, 163);
+  text-align: right;
+  background-color: antiquewhite;
+  border-radius: 15px;
+  margin-right: 10px;
+  margin-left: auto;
+  box-sizing: border-box;
+  padding: 1px 5px;
+  width: max-content;
+}
+.wrappChatI .friend {
+  border: 1px solid rgb(165, 163, 163);
+  text-align: left;
+  background-color: antiquewhite;
+  border-radius: 15px;
+  box-sizing: border-box;
+  padding: 1px 5px;
+  margin-right: auto;
+  margin-left: 10px;
+}
+
+.chatF .IAM {
+  border: 1px solid rgb(165, 163, 163);
+  text-align: right;
+  background-color: antiquewhite;
+  border-radius: 15px;
+  margin-right: auto;
+  margin-left: 10px;
+  box-sizing: border-box;
+  padding: 1px 5px;
+  width: max-content;
+}
+.chatF .friend {
+  border: 1px solid rgb(165, 163, 163);
+  text-align: left;
+  background-color: antiquewhite;
+  border-radius: 15px;
+  box-sizing: border-box;
+  padding: 1px 5px;
+  margin-right: 10px;
+  margin-left: auto;
+}
