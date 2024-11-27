@@ -49,6 +49,6 @@ document.querySelector("#sendI").addEventListener("click", function (event) {
         receive();
       }
       click = 0;
-    }, 220);
+    }, 240);
   }
 });
